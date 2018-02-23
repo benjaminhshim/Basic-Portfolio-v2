@@ -1,0 +1,232 @@
+    body {
+        margin: 0 auto;
+    }
+    
+    .main-content {
+        width: 960px;
+        margin: 0 auto;
+        padding-top: 75px;
+    }
+    
+    .wrapper {
+        padding-bottom: 10rem;
+        padding-top: 60px;
+        /* border-top: 2px solid gray; */
+        background: url("../images/extra_clean_paper.png");
+    } 
+    
+    /* ========= HEADER ==========*/
+    
+
+    .header {
+        box-shadow: 0px 1px 8px gray;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: white;
+    }
+    .name {
+        background: #4aaaa5;
+        color: white;
+        width: 175px;
+        height: 65px;
+        padding-left: 50px;
+        padding-top: 25px;
+        margin-top: 0;
+        float: left;
+        margin-bottom: 0px;
+    }
+    
+    .nav {
+        float: right;
+        display: inline;
+        margin-top: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #777777;
+    }
+    
+    .main-nav {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    li {
+        color: #777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        list-style-type: none;
+        display: inline;
+    }
+
+    .nav a {
+        display: inline;
+        padding: 20px;
+    }
+
+    li:hover,
+    .nav a:hover {
+        background-color: #4aaaa5;
+        color: white;
+    }
+
+    .nav a:active {
+        background-color: white;
+        color: #4aaaa5;
+    }
+
+    
+    /* =========== SECTION ===========*/
+    
+    .clear {
+        overflow: auto;
+    }
+    
+    .article {
+        width: 600px;
+        float: left;
+        height: 475px;
+        color: #4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 20px;
+        border: 1px solid rgb(211, 211, 211);
+        background: white;
+        margin-bottom: 35px;
+    }
+
+    .article p {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    
+    .profile-photo {
+        padding-top: 30px;
+        float: left;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+    .article .p1 {
+        color: #777777;
+        margin-top: 35px;
+    }
+    .article .p2 {
+        color: #777777;
+        clear: left;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio {
+        width: 600px;
+        float: left;
+        color: #4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        background: #ffffff;
+        padding: 20px 20px 20px 30px;
+        border: 1px solid rgb(211, 211, 211);
+    }
+
+    .portfolio-box {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .portfolio-photo {
+        margin-bottom: 30px;
+    }
+    
+    .portfolio-photo:hover {
+        border: 2px solid #4aaaa5;
+    }
+
+    .portfolio-photo-2 {
+        float: right;
+    }
+
+    .portfolio-photo-3 {
+        float: right;
+    }
+
+    .article p {
+        color: #777777;
+    }
+
+    /* CONTACT FORM */
+
+    .article-contact {
+        width: 600px;
+        float: left;
+        height: 570px;
+        color: #4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 20px;
+        border: 1px solid rgb(211, 211, 211);
+        background: white;
+    }
+
+    .form {
+        padding-right: 5px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
+    }
+
+    .form input {
+        width: 100%;
+        height: 2rem;
+    }
+
+    .form textarea {
+        width: 100%;
+        height: 10rem;
+    }
+
+    button {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 10px 30px;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    
+    /* ========== SIDEBAR =========== */
+    
+    .aside {
+        width: 270px;
+        float: right;
+        height: 200px;
+        padding-top: 10px;
+        text-align: center;
+        color: #4aaaa5;
+        background: #ffffff;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        border: 1px solid rgb(211, 211, 211);
+        /* box-shadow: 20px 10px 10px -5px black; */
+
+    }
+    
+    .social {
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+        padding: 0 5px;
+    }
+    
+    .footer {
+        text-align: center;
+        background: #666666; 
+        color: #9e9e9e;
+        height: 75px;
+        padding-top: 20px;
+        border-top: 10px solid #4aaaa5;
+        /*
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        */
+    }
