@@ -138,6 +138,7 @@
     .portfolio-photo {
         margin-bottom: 30px;
     }
+
     
     .portfolio-photo:hover {
         border: 2px solid #4aaaa5;
@@ -147,7 +148,7 @@
         float: right;
     }
 
-    .portfolio-photo-3 {
+    .portfolio-photo-4 {
         float: right;
     }
 
