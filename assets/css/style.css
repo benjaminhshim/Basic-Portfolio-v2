@@ -13,6 +13,7 @@
         padding-top: 60px;
         /* border-top: 2px solid gray; */
         background: url("../images/extra_clean_paper.png");
+        min-height: 100%
     } 
     
     /* ========= HEADER ==========*/
@@ -259,9 +260,9 @@
         padding: 40px;
         border-top: 10px solid #4aaaa5;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        /*
+        
         position: fixed;
         bottom: 0;
         width: 100%;
-        */
+        
     }
