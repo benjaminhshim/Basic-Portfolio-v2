@@ -92,7 +92,8 @@
     .article {
         width: 600px;
         float: left;
-        height: 450px;
+        /* height: 450px; */
+        min-height: 100%;
         color: #4aaaa5;
         font-family: 'Georgia', Times, Times New Roman, serif;
         padding-left: 30px;
@@ -261,8 +262,9 @@
         border-top: 10px solid #4aaaa5;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         
+        /*
         position: fixed;
         bottom: 0;
         width: 100%;
-        
+        */
     }
